@@ -1,0 +1,44 @@
+table {
+  width: 500px;
+  height: 700px;
+  margin-left: 50px;
+  border: 2px solid #8fbc8f;
+  text-align: center;
+}
+
+.display {
+  width: 410px;
+  height: 80px;
+  text-align: right;
+  background-color: white;
+  border: 2px solid #8fbc8f;
+  border-radius: 5px;
+  cursor: auto;
+}
+
+input {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: x-large;
+  background-color: #9acd32;
+  border: 2px solid #8fbc8f;
+  outline: none;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #6b8e23;
+}
+
+.equal {
+  background-color: #6b8e23;
+}
+
+input:active {
+  background-color: #808000;
+}
+
+.display:hover {
+  background: #ffffff; /* ディスプレイ部分は無効 */
+}
