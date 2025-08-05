@@ -1,7 +1,7 @@
 table {
   width: 500px;
   height: 700px;
-  margin-left: 50px;
+  margin: 0 auto;
   border: 2px solid #8fbc8f;
   text-align: center;
 }
@@ -14,31 +14,39 @@ table {
   border: 2px solid #8fbc8f;
   border-radius: 5px;
   cursor: auto;
+  font-size: 2.5em;
+  padding-right: 10px;
 }
 
-input {
+button {
   width: 80px;
   height: 80px;
+  margin-left: 16px;
   border-radius: 50%;
   font-size: x-large;
   background-color: #9acd32;
-  border: 2px solid #8fbc8f;
+  border: none;
   outline: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: #fff;
 }
 
-.operator {
+td {
+  padding: 5px;
+}
+
+button.operator {
   background-color: #6b8e23;
 }
 
-.equal {
+button.equal {
   background-color: #6b8e23;
 }
 
-input:active {
+button:active {
   background-color: #808000;
-}
-
-.display:hover {
-  background: #ffffff; /* ディスプレイ部分は無効 */
 }
